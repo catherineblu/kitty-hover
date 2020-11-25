@@ -13,6 +13,7 @@ body{
     perspective: 1000px;
 }
 .container{
+    
     width: 50%;
     display: flex;
     justify-content: center;
@@ -37,6 +38,7 @@ body{
 .cat img{
     width: 20rem;
     z-index: 2;
+    transition: all 0.75s ease-out;
 }
 .radial{
     width: 20rem;
@@ -52,18 +54,21 @@ body{
 }
 .info h1{
     font-size: 3rem;
+    transition: all 0.75s ease-out;
 }
 .info h3{
     font-size: 1.3rem;
     padding: 2rem 0rem;
     color: #585858;
     font-weight: lighter;
+    transition: all 0.75s ease-out;
 }
-.sizes{
+.paws{
     display: flex;
     justify-content: space-between;
+    transition: all 0.75s ease-out;
 }
-.sizes button{
+.paws button{
     padding: 0.5rem 2rem;
     background: none;
     border: none;
@@ -77,8 +82,13 @@ button.active{
     background: #585858;
     color: white;
 }
+button:hover{
+    background: #585858;
+    color: white;
+}
 .mrow{
     margin-top: 5rem;
+    
 }
 .mrow button{
     width: 100%;
@@ -89,4 +99,5 @@ button.active{
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+    transition: all 0.75s ease-out;
 }
